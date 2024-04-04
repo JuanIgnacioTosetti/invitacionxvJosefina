@@ -5,6 +5,7 @@
 :root{
   --dorado:#CCB7C0;
   --dorado1:#DDD2D8;
+  --color1-desenfoque:rgba(204, 183, 192,.8);
   --blanco:#efefef;
   --negro:#232323;
 }
@@ -17,7 +18,8 @@ body{
   background-color: var(--blanco);
   overflow-x: hidden;
 }
-/* Mariposa */
+/* Mariposa 
+
 .mariposa {
   position: absolute;
   width: 50px;
@@ -25,12 +27,11 @@ body{
   background-size: cover;
   opacity: 0.8;
   z-index: 9000;
-  transform: rotateY(0deg) rotate(90deg); /* Rota la mariposa 90 grados para que vuele de lado */
-
+  transform: rotateY(0deg) rotate(90deg); 
 }
 
 
-/* Fin mariposa */
+ Fin mariposa */
 .fondo-btn{
   z-index: 9999;
   position: fixed;
@@ -100,8 +101,8 @@ body{
   margin-top: 10px;
 }
 .simply-section{
-  color: var(--dorado);
-  background-color: rgba(0, 0, 0, 0.5);
+  color: var(--blanco);
+  background-color: var(--color1-desenfoque);
   backdrop-filter: blur(2px);
   width: 20vw;
   height: 15vh;
@@ -161,6 +162,9 @@ body{
   opacity: 1;
 }
 
+.fotos2{
+  background-color: var(--dorado);
+}
 
 /* ------------------------------------ */
 /* ----- Lugar --------------*/
@@ -284,17 +288,20 @@ background: linear-gradient(0deg, rgba(239,239,239,1) 0%, var(--dorado) 11%, var
 
 /* MESAS */
 
-.sec-mesas{
+/* .sec-mesas{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   padding: 100px 10px;
   text-align: center;
-  background-color: var(--blanco);
-opacity: 1;
+ 
+background-color: var(--blanco);
+opacity: 0.8;
+background-image:  linear-gradient(135deg, var(--dorado) 25%, transparent 25%), linear-gradient(225deg, var(--dorado) 25%, transparent 25%), linear-gradient(45deg, var(--dorado) 25%, transparent 25%), linear-gradient(315deg, var(--dorado) 25%, var(--blanco) 25%);
+background-position:  10px 0, 10px 0, 0 0, 0 0;
 background-size: 20px 20px;
-background-image:  repeating-linear-gradient(to right, var(--dorado), var(--dorado) 1px, var(--blanco) 1px, var(--blanco));
+background-repeat: repeat;
 
  
 }
@@ -306,10 +313,10 @@ background-image:  repeating-linear-gradient(to right, var(--dorado), var(--dora
 .mesa-title{
   font-size: 2em;
   text-align: center;
-}
+} */
 
 /* Estilo personalizado para el selector de mesas */
-#mesas{
+/* #mesas{
   margin-bottom: 25px;
 }
 .form-select {
@@ -327,6 +334,43 @@ background-image:  repeating-linear-gradient(to right, var(--dorado), var(--dora
   outline: none;
   border-color: var(--dorado1);
   box-shadow: 0 0 5px var(--dorado1);
+} */
+
+/* Frase */
+
+.frase {
+  margin: 40px 20px;
+  color:var(--dorado1);
+  text-align: center;
+}
+.frase h3{
+  font-size: 2rem;
+}
+.frase h5{
+  margin-top: 10vh;
+  font-size: 1.5rem;
+}
+
+/* Confirmar asistencia */
+.confirmarasistencia{
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  background: rgb(239,239,239);
+  background: linear-gradient(0deg, var(--dorado) 0%, var(--dorado) 11%, var(--dorado) 51%, var(--dorado) 83%, rgba(239,239,239,1) 100%);
+}
+
+.confirmarasistencia a{
+  text-decoration: none;
+  background-color: var(--blanco);
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+.confirmarasistencia a:visited{
+  color: #232323;
 }
 
 /* FOOTER */
