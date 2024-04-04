@@ -77,7 +77,7 @@ body{
     background-position: bottom bottom; /* Centramos la imagen en el fondo */
     text-align: center; /* Centramos el texto horizontalmente */
     color: var(--blanco); /* Establecemos el color de texto a blanco para que contraste con el fondo */
-    padding: 20px 0; /* Añadimos un relleno para separar el texto del borde de la sección */
+    padding: 60px 0; /* Añadimos un relleno para separar el texto del borde de la sección */
     
 }
   
