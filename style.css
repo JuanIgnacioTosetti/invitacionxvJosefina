@@ -3,9 +3,9 @@
 *{margin: 0; padding: 0;box-sizing: border-box;font-family: 'Poppins', sans-serif;}
 
 :root{
-  --dorado:#CCB7C0;
-  --dorado1:#DDD2D8;
-  --color1-desenfoque:rgba(204, 183, 192,.8);
+  --dorado:#A57CFF;
+  --dorado1:#7A3DFF;
+  --color1-desenfoque: rgb(165, 124, 255, .8) ;
   --blanco:#efefef;
   --negro:#232323;
 }
@@ -77,7 +77,7 @@ body{
     background-position: bottom bottom; /* Centramos la imagen en el fondo */
     text-align: center; /* Centramos el texto horizontalmente */
     color: var(--blanco); /* Establecemos el color de texto a blanco para que contraste con el fondo */
-    padding: 60px 0; /* Añadimos un relleno para separar el texto del borde de la sección */
+    padding: 20px 0; /* Añadimos un relleno para separar el texto del borde de la sección */
     
 }
   
@@ -92,7 +92,7 @@ body{
 
 /* ----------Cuenta Regresiva------------- */
 .txt-faltan{
-  margin-top: 300px;
+  margin-top: 200px;
 }
 
 #cuentaRegresiva{
@@ -196,7 +196,7 @@ body{
 }
 .btn-evento{
   text-decoration: none;
-  color: var(--negro);
+  color: var(--blanco);
   background-color: var(--dorado1);
   padding: 5px;
   border-radius: 5px;
@@ -204,6 +204,7 @@ body{
 }
 .btn-evento:hover{
   background-color: var(--dorado);
+  color: var(--blanco);
 }
 
 /* ------------------------ */
