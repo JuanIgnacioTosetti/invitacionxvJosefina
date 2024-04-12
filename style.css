@@ -211,7 +211,7 @@ body{
 
 /* ---------- Dress Code------ */
 .dresscode{
-  
+  color: var(--dorado1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -223,6 +223,7 @@ body{
   padding: 20px 25px;
   margin: 20px;
   border-radius: 50%;
+  
 }
 
 .dresscode p{
@@ -235,7 +236,7 @@ body{
   background-color: var(--blanco);
   text-align: center;
   padding: 50px 80px;
-  color: var(--negro);
+  color: var(--dorado1);
   font-size: 1.2em;
 }
 
@@ -258,6 +259,7 @@ background: linear-gradient(0deg, rgba(239,239,239,1) 0%, var(--dorado) 11%, var
 /* ----Fotos------- */
 
 .fotos{
+  color: var(--dorado1);
   text-align: center;
   margin: 50px 80px;
   font-size: 1.3em;
@@ -269,9 +271,9 @@ background: linear-gradient(0deg, rgba(239,239,239,1) 0%, var(--dorado) 11%, var
   background-color: var(--blanco);
   padding: 15px;
   border-radius: 10px;
-  border: var(--negro) solid 3px;
+  border: var(--dorado1) solid 3px;
   text-decoration: none;
-  color: var(--negro);
+  color: var(--dorado1);
   transition: .5s;
 }
 .fotos a:hover{
@@ -372,6 +374,17 @@ background-repeat: repeat;
 }
 .confirmarasistencia a:visited{
   color: #232323;
+}
+
+.confirm-ph{
+  background-color: var(--dorado);
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5vh;
+}
+
+.confirm-ph img{
+  width: 80vw;
 }
 
 /* FOOTER */
